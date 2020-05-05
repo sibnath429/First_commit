@@ -33,11 +33,8 @@ public class java8087 {
     }
 
     public static void main(String[] args) throws Exception {
-        java8087 client = new java8087(
-                InetAddress.getByName("127.0.0.1"),
-                8087);
-
-        System.out.println("\r\nConnected to Server: " + client.socket.getInetAddress());
-        client.start();
+       
+        System.out.println("\r\nConnected to Server:" );
+        
     }
 }
